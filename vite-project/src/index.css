@@ -1,7 +1,7 @@
 :root {
   --color-background: #ffffff;
   --color-foreground: #0a0a0a;
-  --color-primary: #ffd700;
+  /* --color-primary: #ffd700; */
   --color-primary-dark: #b39700;
   --color-muted: #666666;
   --color-border: #e5e5e5;
@@ -12,7 +12,7 @@
   :root {
     --color-background: #0a0a0a;
     --color-foreground: #ffffff;
-    --color-primary: #ffd700;
+    /* --color-primary: #ffd700; */
     --color-primary-dark: #ffed4a;
     --color-muted: #a3a3a3;
     --color-border: #262626;
@@ -64,13 +64,14 @@ body {
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
-  color: var(--color-foreground);
+  /* color: var(--color-foreground); */
 }
 
 .logo {
   width: 1.5rem;
   height: 1.5rem;
-  background-color: var(--color-primary);
+  background-image: url(/logo.png);
+  background-size: cover;
   border-radius: 4px;
 }
 
@@ -101,10 +102,11 @@ body {
 .hero-background {
   position: absolute;
   inset: 0;
-  background-image: url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-12%2013-38-45-uO2uVtdaTvIwKUQvki5nJTHDmwt7tL.png);
+  background-image: url(/image.jpg); /* Ensure the image path is correct */
   background-size: cover;
   background-position: center;
   filter: brightness(0.5);
+  /* Temporary border for debugging */
 }
 
 .hero-content {

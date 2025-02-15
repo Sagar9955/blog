@@ -1,10 +1,8 @@
 function DataOverlays() {
     const overlayData = [
       {
-        title: "Annual Flux",
-        description: "Annual amount of solar energy.",
-        image:
-          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20from%202025-02-12%2013-39-15-DfMDLYwJDXYwoVYrvPr9TpyHwg2iIH.png",
+        title: "Running Custom WebGL Shaders Using Deck.gl for Solar Potential Analysis",
+        image:"/overlay1.png",
       },
       {
         title: "Monthly Flux",
@@ -24,7 +22,7 @@ function DataOverlays() {
       <section className="overlays">
         <div className="overlays-container">
           <div className="overlays-header">
-            <h2 className="overlays-title">High Quality Data Overlays</h2>
+            <h2 className="overlays-title">Major Highlights Of The Project</h2>
             <p className="overlays-description">Inspect areas that receive the most sunlight and shade</p>
           </div>
   
