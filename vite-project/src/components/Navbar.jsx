@@ -13,9 +13,7 @@ function Navbar() {
             <a href="/blog" className="nav-link">
               Blog
             </a>
-            <a href="/get-started" className="button">
-              Get started
-            </a>
+            
             
             
           </div>
