@@ -47,24 +47,24 @@ body {
 }
 
 .navbar-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Ensures content is pushed to the edges */
   align-items: center;
 }
 
-.navbar-left,
+.navbar-left {
+  flex-grow: 1; /* Pushes the logo to the left */
+}
+
 .navbar-right {
+  flex-grow: 1; /* Pushes the blog link to the right */
   display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  font-size: 1.5rem;
+  justify-content: flex-end;
 }
-.nav-link{
-  font-size: 1.5rem;
-}
+
 
 .logo-link {
   display: flex;
