@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import DataOverlays from "./components/DataOverlays"
 import VideoSection from "./components/VideoSection"
+import AboutUs from "./components/AboutUs"
 import "./App.css"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <DataOverlays />
       <VideoSection />
+      <AboutUs/>
     </div>
   )
 }
